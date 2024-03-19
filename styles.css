@@ -1,0 +1,150 @@
+/* Reset some default styles */
+
+body {
+    background-color: #93d6e2; /* Set the background color to a light cream */
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff; /* Change background color to blue */
+    color: #fff; /* Change text color to white */
+}
+
+
+/* Style intro section */
+.intro {
+    text-align: center; /* Align the content center within the intro section */
+    padding: 20px;
+}
+
+/* Style the pre tag within the intro section */
+.intro pre {
+    white-space: pre-wrap; /* Preserve line breaks and wrap text */
+}
+
+/* Style the line divider */
+
+.line {
+    margin:5px 0;
+    height:2px;
+    background:
+      repeating-linear-gradient(90deg,red 0 5px,#0000 0 7px)
+      /*5px red then 2px transparent -> repeat this!*/
+  }
+
+  /* Your existing CSS */
+
+.line {
+    margin-bottom: 20px; /* Add margin to create a gap between the line and "Meet Our Team" heading */
+}
+
+
+/* Style the "Meet Our Team" heading */
+.meet-our-team {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+
+
+/* Your existing CSS */
+.team {
+    text-align: center;
+}
+
+
+.founders {
+    display: flex; /* Use flexbox to arrange the founder names side by side */
+    justify-content: center; /* Center the content horizontally within the container */
+}
+
+.member {
+    margin: 0 20px; /* Add some margin between the founder names */
+}
+
+
+.member img {
+    height: 100px; /* Set a fixed height for the images */
+    width: auto; /* Let the width adjust according to the height and maintain aspect ratio */
+}
+
+.team-heading {
+    margin-bottom: 10px; /* Adjust this value to increase the space */
+}
+
+.member {
+    margin-top: 20px; /* Add margin-top to create space between members */
+}
+
+
+
+.VP-Name{
+    display: flex; /* Use flexbox to arrange the founder names side by side */
+    justify-content: center; /* Center the content horizontally within the container */
+}
+
+.Developer-Name{
+    display: flex; /* Use flexbox to arrange the founder names side by side */
+    justify-content: center; /* Center the content horizontally within the container */
+}
+
+.team-heading {
+    margin-top: 20px; /* Adjust this value to increase the space */
+}
+.Developer-Name2{
+    display: flex; /* Use flexbox to arrange the founder names side by side */
+    justify-content: center; /* Center the content horizontally within the container */
+}
+
+.Employee-Name{
+    display: flex; /* Use flexbox to arrange the founder names side by side */
+    justify-content: center; /* Center the content horizontally within the container */
+}
+.Employee-Name2{
+    display: flex; /* Use flexbox to arrange the founder names side by side */
+    justify-content: center; /* Center the content horizontally within the container */
+}
+
+
+
+.team-heading {
+    background-color: #cda6dd; /* Set the background color to a very light blue */
+    border: 1px solid #000; /* Border around the heading */
+    display: inline-block; /* Make the heading inline-block to fit the content */
+    padding: 5px 10px; /* Add padding for better spacing */
+}
+
+
+
+
+
+.meet-our-team {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c92618; /* Blue color */
+    text-transform: uppercase;
+    border: 2px solid #0e0a0e; /* Blue border */
+    padding: 10px 20px; /* Add padding inside the box */
+    display: inline-block; /* Make the box fit the content */
+}
+
+
+
+/* Responsive styling */
+@media only screen and (min-width: 768px) {
+    .intro {
+        padding: 20px 100px; /* Increase padding for larger screens */
+    }
+}
+
